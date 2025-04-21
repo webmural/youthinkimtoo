@@ -17,7 +17,7 @@ html {
 body {
   margin: auto;
   overflow-wrap: anywhere;
-  padding: 3ch;
+  padding: 1em 3ch;
 }
 
 article {
@@ -31,7 +31,6 @@ article {
 .nap {
   font-family: monospace;
   font-weight: initial;
-  font-size: .618em;
   writing-mode: sideways-rl;
 }
 
@@ -40,7 +39,7 @@ nav {
   contain: layout;
   display: flex;
   flex-flow: row wrap;
-  justify-content: center;
+  margin-bottom: 1rem;
 }
 
 .naw {  
@@ -56,9 +55,12 @@ nav {
 }
 
 h1 {
-  text-align: center;
   line-height: 1;
   margin: 5vh;
+}
+
+p {
+  font-weight: bold;
 }
 
 @media (prefers-reduced-motion: no-preference) {

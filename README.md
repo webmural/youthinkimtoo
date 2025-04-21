@@ -1,9 +1,9 @@
-## [`6oo`](index.html) [mural](https://webmural.com/6oo)
+## [youthinkimtoo mural](https://webmural.com/6oo)
 
-### [color](6oo.css) [morf](https://webmural.com/deev)
+### [multicolor](6oo.css)
 
 * `border-radius`
-* `coral` 
+* `filter` 
 * `gradient`
 * `hue-rotate`
 * `transition: 600ms`
