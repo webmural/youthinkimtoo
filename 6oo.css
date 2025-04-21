@@ -4,32 +4,41 @@
 }
 
 :any-link {
-  box-shadow: 0 0 2em 1em coral;
-  background: coral;
-  color: indigo;
+  box-shadow: 0 0 2em 1em skyblue;
+  background: turquoise;
+  color: #0e0e0e;
 }
 
 :any-link:nth-child(odd) {
-  box-shadow: 0 0 1em 1em lightcoral;
-  background: lightcoral;
+  box-shadow: 0 0 1em 1em hotpink;
+  background: skyblue;
+}
+
+.holy :any-link {
+  background: violet;
+  box-shadow: 0 0 .3ex .3ex violet;
 }
 
 :any-link:hover {
-  background: thistle; 
+  background: khaki; 
 }
 
 :focus {
-  filter: hue-rotate(-36deg);
+  filter: hue-rotate(20deg);
   outline: .382rem dotted;
 }
 
 :active {
-  filter: hue-rotate(-18deg);
+  filter: hue-rotate(10deg);
   outline-style: solid;
 }
 
 html {
   background: rebeccapurple;
-  background-image: linear-gradient(.9turn, lavenderblush 0%, transparent 20%, transparent 80%, lavenderblush);
-  color: lavenderblush;
+  background-image: linear-gradient(.9turn, dodgerblue 0%, transparent 20%, transparent 80%, skyblue);
+  color: #e0e0e0;
+}
+
+.holy {
+  background-image: linear-gradient(purple, transparent);
 }
